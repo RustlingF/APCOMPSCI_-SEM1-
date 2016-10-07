@@ -25,7 +25,7 @@ public class rudeAI
 		String activ = keyboard.nextLine();
 	
 		System.out.println("You "+activ+" for fun!!! That is boring :((");
-		keyboard.nextLine();
+		
 		//next question
 		System.out.println("What kind of music do you like?");
 
@@ -42,7 +42,7 @@ public class rudeAI
 
 		String growup = keyboard.next();
 	
-		System.out.println("Wow...." + growup + " is such a useless carear path");
+		System.out.println("Wow....\n" + growup + " is such a useless carear path");
 		
 		
 	}

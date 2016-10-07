@@ -3,7 +3,7 @@ public class BMI
 {
 	public static void main(String[]args)
 	{
-		scanner input = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 
         double weight = 0;
         double height = 0;
@@ -17,9 +17,8 @@ public class BMI
 
         bmi = ((weight * 703)/(height * height));
 
-        System.out.printf("Your BMI is %bf\n", bmi);
+        System.out.println("Your BMI is " +bmi);
 
-        System.out.println("BMI VALUES");
 		
 	}
 	

@@ -12,8 +12,8 @@ public class APLab_2
 	
 		String first = "Alvaro";
 		String second = " Espinoza\n";
-		String third = "Swag Vil\n";
-		String fourth = "6969";
+		String third = "123 Swag Lane\n YOLO Hills,CA 6969\n";
+		String fourth = "ADDRESS LINE 3";
 		
 		System.out.println(first+second+third+fourth);
 		

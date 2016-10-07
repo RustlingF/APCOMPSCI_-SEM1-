@@ -9,5 +9,8 @@ public class ASCiiart
 		System.out.println("H     H   EEEEE LLLLL LLLLL   OOO  ,,     W W     OOO    R     R    LLLLL   DDDD  !!");
 		System.out.println("");
 		System.out.println("");
+		
+		System.out.println("hello \n" + "hello\n");
+		
 	}
 }
