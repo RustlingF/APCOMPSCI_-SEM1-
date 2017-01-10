@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class APLab06Ex_02
+public class APLab06_Ex_02
 {
 	public static void main(String[]args)
 	{
