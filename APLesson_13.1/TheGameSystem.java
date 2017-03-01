@@ -13,19 +13,23 @@ public abstract class TheGameSystem
 	public TheGameSystem(String p)
 	{
 		platform = p;
-		serialNo =(int)(Math.random()*1000000); 
+		serialNo =(int)((Math.random()*10000000)); 
 	}
 	
 	public String getPlatform()
 	{
 		return platform;
 	}
-	public abstract String getController();
 
 	
 	public int getSerialno()
 	{
 		return serialNo;
 	}
+	public String toString()
+	{
+		return  "\n" + "Serial #: " + serialNo;
+	}
+	
 
 }

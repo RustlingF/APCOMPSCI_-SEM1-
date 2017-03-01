@@ -1,29 +1,29 @@
 public class Xbox extends TheGameSystem 
-{
-	private String platform; 
-	private int serialNo;
-	private String controller; 
-	
+{	
 	
 	public Xbox()
 	{
 		super();
-		controller = ""; 
 	}
-	public Xbox(String p,String c)
+	public Xbox(String p)
 	{
 		super(p);
-		controller = c; 
+	
 		
+	}
+	public String getPlatform()
+	{
+		return "Xbox";
 	}
 	
 	public String getController()
 	{
 		return "Xbox Wireless Controller"; 
 	}
-	public String getPlatform()
+	
+	public String toString()
 	{
-		return "Xbox";
+		return  "Platform: "+getPlatform()+ super.toString()+"\nController: " + getController();
 	}
 	
 }

@@ -1,29 +1,25 @@
 public class PlayStation extends TheGameSystem 
 {
-	private String platform; 
-	private int serialNo;
-	private String controller; 
-	
-	
 	public PlayStation()
 	{
 		super();
-		controller = ""; 
 	}
-	public PlayStation(String p,String c)
+	public PlayStation(String p)
 	{
 		super(p);
-		controller = c; 
+	
 		
 	}
-	
+	public String getPlatform()
+	{
+		return "Playstation";
+	}
 	public String getController()
 	{
 		return "PS DualShock 4"; 
 	}
-	public String getPlatform()
+	public String toString()
 	{
-		return "PlayStation";
+		return  "Platform: "+getPlatform()+ super.toString()+"\nController: " + getController();
 	}
-	
 }
